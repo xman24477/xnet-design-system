@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xnet_color_cyber_green_background">#020A02</color>
+    <color name="xnet_color_cyber_green_background_alt">#040E04</color>
+    <color name="xnet_color_cyber_green_surface_base">#5C071407</color>
+    <color name="xnet_color_cyber_green_stroke">#2D8C44</color>
+    <color name="xnet_color_cyber_green_text_primary">#E8FFE8</color>
+    <color name="xnet_color_cyber_green_text_secondary">#8FE09A</color>
+    <color name="xnet_color_cyber_green_accent_primary">#00FF41</color>
+    <color name="xnet_color_cyber_green_accent_highlight">#49D6FF</color>
+    <color name="xnet_color_cyber_green_accent_positive">#00FF85</color>
+    <color name="xnet_color_cyber_green_surface_raised">#040E04</color>
+    <color name="xnet_color_cyber_green_surface_alt">#5C071407</color>
+    <color name="xnet_color_cyber_green_accent_primary_soft">#4000FF41</color>
+</resources>

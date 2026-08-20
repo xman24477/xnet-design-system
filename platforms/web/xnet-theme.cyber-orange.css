@@ -1,0 +1,15 @@
+/* Theme: cyber-orange */
+[data-theme='cyber-orange'] {
+  --xnet-background: #0D0600;
+  --xnet-background-alt: #1A0C00;
+  --xnet-surface-base: #5C261200;
+  --xnet-stroke: #BF6B30;
+  --xnet-text-primary: #FFF1E6;
+  --xnet-text-secondary: #CCB3A3;
+  --xnet-accent-primary: #FF7700;
+  --xnet-accent-highlight: #FFA500;
+  --xnet-accent-positive: #00FF85;
+  --xnet-surface-raised: #1A0C00;
+  --xnet-surface-alt: #5C261200;
+  --xnet-accent-primary-soft: #40FF7700;
+}

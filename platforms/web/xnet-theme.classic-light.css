@@ -1,0 +1,19 @@
+/* Theme: classic-light */
+[data-theme='classic-light'] {
+  --xnet-background: #F5F5F5;
+  --xnet-background-alt: #FFFFFF;
+  --xnet-surface-base: #FFFFFF;
+  --xnet-text-primary: #212121;
+  --xnet-text-secondary: #757575;
+  --xnet-text-muted: #757575;
+  --xnet-text-hint: #9E9E9E;
+  --xnet-accent-primary: #000000;
+  --xnet-accent-positive: #2E7D32;
+  --xnet-surface-raised: #E0E0E0;
+  --xnet-surface-alt: #FFFFFF;
+  --xnet-stroke: #CCCCCC;
+  --xnet-stroke-soft: #1F000000;
+  --xnet-glass: #15000000;
+  --xnet-glass-soft: #08000000;
+  --xnet-accent-primary-soft: #20000000;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xnet_color_classic_light_background">#F5F5F5</color>
+    <color name="xnet_color_classic_light_background_alt">#FFFFFF</color>
+    <color name="xnet_color_classic_light_surface_base">#FFFFFF</color>
+    <color name="xnet_color_classic_light_text_primary">#212121</color>
+    <color name="xnet_color_classic_light_text_secondary">#757575</color>
+    <color name="xnet_color_classic_light_text_muted">#757575</color>
+    <color name="xnet_color_classic_light_text_hint">#9E9E9E</color>
+    <color name="xnet_color_classic_light_accent_primary">#000000</color>
+    <color name="xnet_color_classic_light_accent_positive">#2E7D32</color>
+    <color name="xnet_color_classic_light_surface_raised">#E0E0E0</color>
+    <color name="xnet_color_classic_light_surface_alt">#FFFFFF</color>
+    <color name="xnet_color_classic_light_stroke">#CCCCCC</color>
+    <color name="xnet_color_classic_light_stroke_soft">#1F000000</color>
+    <color name="xnet_color_classic_light_glass">#15000000</color>
+    <color name="xnet_color_classic_light_glass_soft">#08000000</color>
+    <color name="xnet_color_classic_light_accent_primary_soft">#20000000</color>
+</resources>

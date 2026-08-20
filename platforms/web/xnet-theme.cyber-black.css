@@ -1,0 +1,15 @@
+/* Theme: cyber-black */
+[data-theme='cyber-black'] {
+  --xnet-background: #070707;
+  --xnet-background-alt: #101010;
+  --xnet-surface-base: #5C141414;
+  --xnet-stroke: #505050;
+  --xnet-text-primary: #F5F5F5;
+  --xnet-text-secondary: #D4D4D4;
+  --xnet-accent-primary: #F2F2F2;
+  --xnet-accent-highlight: #7EC8E3;
+  --xnet-accent-positive: #FFC857;
+  --xnet-surface-raised: #101010;
+  --xnet-surface-alt: #5C141414;
+  --xnet-accent-primary-soft: #40F2F2F2;
+}

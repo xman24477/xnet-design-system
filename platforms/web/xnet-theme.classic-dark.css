@@ -1,0 +1,13 @@
+/* Theme: classic-dark */
+[data-theme='classic-dark'] {
+  --xnet-background: #121212;
+  --xnet-background-alt: #000000;
+  --xnet-surface-base: #1E1E1E;
+  --xnet-text-primary: #FFFFFF;
+  --xnet-text-secondary: #B3B3B3;
+  --xnet-accent-primary: #FFFFFF;
+  --xnet-surface-raised: #333333;
+  --xnet-surface-alt: #1E1E1E;
+  --xnet-stroke: #444444;
+  --xnet-accent-primary-soft: #40FFFFFF;
+}

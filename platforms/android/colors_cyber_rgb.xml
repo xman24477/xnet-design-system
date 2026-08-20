@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xnet_color_cyber_rgb_background">#05080C</color>
+    <color name="xnet_color_cyber_rgb_background_alt">#0D131A</color>
+    <color name="xnet_color_cyber_rgb_surface_base">#0A0F14</color>
+    <color name="xnet_color_cyber_rgb_stroke">#00D4FF</color>
+    <color name="xnet_color_cyber_rgb_text_primary">#F0F8FF</color>
+    <color name="xnet_color_cyber_rgb_text_secondary">#A0C0D0</color>
+    <color name="xnet_color_cyber_rgb_accent_primary">#00D4FF</color>
+    <color name="xnet_color_cyber_rgb_accent_secondary">#FF6B00</color>
+    <color name="xnet_color_cyber_rgb_accent_positive">#00FF41</color>
+    <color name="xnet_color_cyber_rgb_surface_raised">#121A24</color>
+    <color name="xnet_color_cyber_rgb_surface_alt">#0E1620</color>
+    <color name="xnet_color_cyber_rgb_accent_primary_soft">#4000D4FF</color>
+</resources>

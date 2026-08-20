@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xnet_color_cyber_blue_background">#020810</color>
+    <color name="xnet_color_cyber_blue_background_alt">#06111D</color>
+    <color name="xnet_color_cyber_blue_surface_base">#5C0A1628</color>
+    <color name="xnet_color_cyber_blue_stroke">#3A8AC6</color>
+    <color name="xnet_color_cyber_blue_text_primary">#E8F4F8</color>
+    <color name="xnet_color_cyber_blue_text_secondary">#8AB4C8</color>
+    <color name="xnet_color_cyber_blue_accent_primary">#00D4FF</color>
+    <color name="xnet_color_cyber_blue_accent_highlight">#7EC8E3</color>
+    <color name="xnet_color_cyber_blue_accent_positive">#53D39B</color>
+    <color name="xnet_color_cyber_blue_surface_raised">#06111D</color>
+    <color name="xnet_color_cyber_blue_surface_alt">#5C0A1628</color>
+    <color name="xnet_color_cyber_blue_accent_primary_soft">#4000D4FF</color>
+</resources>

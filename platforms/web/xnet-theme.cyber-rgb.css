@@ -1,0 +1,15 @@
+/* Theme: cyber-rgb */
+[data-theme='cyber-rgb'] {
+  --xnet-background: #05080C;
+  --xnet-background-alt: #0D131A;
+  --xnet-surface-base: #0A0F14;
+  --xnet-stroke: #00D4FF;
+  --xnet-text-primary: #F0F8FF;
+  --xnet-text-secondary: #A0C0D0;
+  --xnet-accent-primary: #00D4FF;
+  --xnet-accent-secondary: #FF6B00;
+  --xnet-accent-positive: #00FF41;
+  --xnet-surface-raised: #121A24;
+  --xnet-surface-alt: #0E1620;
+  --xnet-accent-primary-soft: #4000D4FF;
+}
