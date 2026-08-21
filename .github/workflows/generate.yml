@@ -34,8 +34,8 @@ jobs:
       - name: Push Android Tokens to Android Theme Library
         env:
           # আপনার গিটহাব ইউজারনেম এবং অ্যান্ড্রয়েড রিপোজিটরির নাম এখানে দিন
-          # উদাহরণ: xman24477/Xnet-Hub-Theme
-          ANDROID_REPO: "xman24477/Xnet-Hub-Theme"
+          # উদাহরণ: xman24477/xnet-hub-theme
+          ANDROID_REPO: "xman24477/xnet-hub-theme"
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           # অ্যান্ড্রয়েড রিপোজিটরি ক্লোন করা
