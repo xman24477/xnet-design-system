@@ -1,4 +1,4 @@
-﻿name: Generate Design Tokens
+name: Generate Design Tokens
 
 on:
   push:
@@ -23,10 +23,31 @@ jobs:
       - name: Generate Platforms
         run: python scripts/generate_platforms.py
 
-      - name: Commit Generated Files
+      - name: Commit Generated Files to Token Repo
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add platforms/
           git commit -m "chore: auto-generate platform files from tokens" || echo "No changes to commit"
+          git push
+
+      - name: Push Android Tokens to Android Theme Library
+        env:
+          # আপনার গিটহাব ইউজারনেম এবং অ্যান্ড্রয়েড রিপোজিটরির নাম এখানে দিন
+          # উদাহরণ: xman24477/Xnet-Hub-Theme
+          ANDROID_REPO: "xman24477/Xnet-Hub-Theme"
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          # অ্যান্ড্রয়েড রিপোজিটরি ক্লোন করা
+          git clone https://x-access-token:${PAT_TOKEN}@github.com/${ANDROID_REPO}.git android-repo
+          
+          # নতুন জেনারেট হওয়া XML ফাইলগুলো অ্যান্ড্রয়েড থিমের ফোল্ডারে কপি করা
+          cp -r platforms/android/*.xml android-repo/xnet_hub_theme/src/main/res/values/
+          
+          # অ্যান্ড্রয়েড রিপোজিটরিতে ঢুকে পুশ করা
+          cd android-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add xnet_hub_theme/src/main/res/values/
+          git commit -m "chore: auto-update android theme tokens from design system" || echo "No changes to commit in android repo"
           git push
