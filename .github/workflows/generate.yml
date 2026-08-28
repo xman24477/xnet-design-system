@@ -38,16 +38,35 @@ jobs:
           ANDROID_REPO: "xman24477/xnet-hub-theme"
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          # অ্যান্ড্রয়েড রিপোজিটরি ক্লোন করা
           git clone https://x-access-token:${PAT_TOKEN}@github.com/${ANDROID_REPO}.git android-repo
-          
-          # নতুন জেনারেট হওয়া XML ফাইলগুলো অ্যান্ড্রয়েড থিমের ফোল্ডারে কপি করা
           cp -r platforms/android/*.xml android-repo/xnet_hub_theme/src/main/res/values/
-          
-          # অ্যান্ড্রয়েড রিপোজিটরিতে ঢুকে পুশ করা
           cd android-repo
+          
+          # Get current version from Git tags, or default to 1.0.0
+          CURRENT_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "1.0.0")
+          
+          # Split the version string (assumes SemVer format X.Y.Z)
+          IFS='.' read -ra VERSION_PARTS <<< "$CURRENT_TAG"
+          MAJOR="${VERSION_PARTS[0]}"
+          MINOR="${VERSION_PARTS[1]}"
+          PATCH="${VERSION_PARTS[2]}"
+          
+          # Increment patch version
+          NEW_PATCH=$((PATCH + 1))
+          NEW_TAG="${MAJOR}.${MINOR}.${NEW_PATCH}"
+          
+          # Update README.md with the new version
+          sed -i "s/${CURRENT_TAG}/${NEW_TAG}/g" README.md
+          
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add xnet_hub_theme/src/main/res/values/
-          git commit -m "chore: auto-update android theme tokens from design system" || echo "No changes to commit in android repo"
-          git push
+          git add xnet_hub_theme/src/main/res/values/ README.md
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit in android repo"
+          else
+            git commit -m "chore: auto-update android theme tokens and bump version to ${NEW_TAG}"
+            git tag -a "${NEW_TAG}" -m "Release ${NEW_TAG}"
+            git push origin main
+            git push origin "${NEW_TAG}"
+          fi
