@@ -12,4 +12,7 @@
     <color name="xnet_color_cyber_green_surface_raised">#040E04</color>
     <color name="xnet_color_cyber_green_surface_alt">#5C071407</color>
     <color name="xnet_color_cyber_green_accent_primary_soft">#4000FF41</color>
+    <color name="xnet_color_cyber_green_semantic_error">#FF4444</color>
+    <color name="xnet_color_cyber_green_semantic_warning">#FFC107</color>
+    <color name="xnet_color_cyber_green_semantic_info">#00D4FF</color>
 </resources>

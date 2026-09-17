@@ -16,4 +16,7 @@
     <color name="xnet_color_classic_light_glass">#15000000</color>
     <color name="xnet_color_classic_light_glass_soft">#08000000</color>
     <color name="xnet_color_classic_light_accent_primary_soft">#20000000</color>
+    <color name="xnet_color_classic_light_semantic_error">#FF4444</color>
+    <color name="xnet_color_classic_light_semantic_warning">#FFC107</color>
+    <color name="xnet_color_classic_light_semantic_info">#1976D2</color>
 </resources>

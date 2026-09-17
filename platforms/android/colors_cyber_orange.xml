@@ -12,4 +12,7 @@
     <color name="xnet_color_cyber_orange_surface_raised">#1A0C00</color>
     <color name="xnet_color_cyber_orange_surface_alt">#5C261200</color>
     <color name="xnet_color_cyber_orange_accent_primary_soft">#40FF7700</color>
+    <color name="xnet_color_cyber_orange_semantic_error">#FF4444</color>
+    <color name="xnet_color_cyber_orange_semantic_warning">#FFC107</color>
+    <color name="xnet_color_cyber_orange_semantic_info">#00D4FF</color>
 </resources>

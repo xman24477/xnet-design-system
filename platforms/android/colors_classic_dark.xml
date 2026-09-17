@@ -10,4 +10,7 @@
     <color name="xnet_color_classic_dark_surface_alt">#1E1E1E</color>
     <color name="xnet_color_classic_dark_stroke">#444444</color>
     <color name="xnet_color_classic_dark_accent_primary_soft">#40FFFFFF</color>
+    <color name="xnet_color_classic_dark_semantic_error">#FF4444</color>
+    <color name="xnet_color_classic_dark_semantic_warning">#FFC107</color>
+    <color name="xnet_color_classic_dark_semantic_info">#00D4FF</color>
 </resources>

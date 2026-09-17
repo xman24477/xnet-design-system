@@ -11,4 +11,7 @@ public struct XnetClassicDarkColors {
     public static let surfaceAlt = Color(hex: "#1E1E1E")
     public static let stroke = Color(hex: "#444444")
     public static let accentPrimarySoft = Color(hex: "#40FFFFFF")
+    public static let semanticError = Color(hex: "#FF4444")
+    public static let semanticWarning = Color(hex: "#FFC107")
+    public static let semanticInfo = Color(hex: "#00D4FF")
 }

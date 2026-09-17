@@ -13,4 +13,7 @@ public struct XnetCyberRgbColors {
     public static let surfaceRaised = Color(hex: "#121A24")
     public static let surfaceAlt = Color(hex: "#0E1620")
     public static let accentPrimarySoft = Color(hex: "#4000D4FF")
+    public static let semanticError = Color(hex: "#FF4444")
+    public static let semanticWarning = Color(hex: "#FFC107")
+    public static let semanticInfo = Color(hex: "#00D4FF")
 }

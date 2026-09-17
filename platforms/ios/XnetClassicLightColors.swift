@@ -17,4 +17,7 @@ public struct XnetClassicLightColors {
     public static let glass = Color(hex: "#15000000")
     public static let glassSoft = Color(hex: "#08000000")
     public static let accentPrimarySoft = Color(hex: "#20000000")
+    public static let semanticError = Color(hex: "#FF4444")
+    public static let semanticWarning = Color(hex: "#FFC107")
+    public static let semanticInfo = Color(hex: "#1976D2")
 }

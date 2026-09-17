@@ -3,83 +3,97 @@
     <dimen name="xnet_bg_audio_card_radius">28dp</dimen>
     <dimen name="xnet_bg_audio_control_button_width">44dp</dimen>
     <dimen name="xnet_bg_audio_control_button_height">44dp</dimen>
-    <dimen name="xnet_bg_audio_control_button_stroke_width">1.2</dimen>
+    <item name="xnet_bg_audio_control_button_stroke_width" type="dimen" format="float">1.2</item>
     <dimen name="xnet_bg_audio_play_hex_width">68dp</dimen>
     <dimen name="xnet_bg_audio_play_hex_height">68dp</dimen>
-    <dimen name="xnet_bg_audio_play_hex_stroke_width">2</dimen>
+    <integer name="xnet_bg_audio_play_hex_stroke_width">2</integer>
     <dimen name="xnet_bg_auth_google_button_base_width">320dp</dimen>
     <dimen name="xnet_bg_auth_google_button_base_height">64dp</dimen>
-    <dimen name="xnet_bg_auth_google_button_base_stroke_width">2</dimen>
+    <integer name="xnet_bg_auth_google_button_base_stroke_width">2</integer>
     <dimen name="xnet_bg_auth_google_icon_chip_radius">10dp</dimen>
     <dimen name="xnet_bg_drive_dialog_window_radius">0dp</dimen>
     <dimen name="xnet_bg_drive_hacker_status_radius">0dp</dimen>
     <dimen name="xnet_bg_drive_hex_fab_width">64dp</dimen>
     <dimen name="xnet_bg_drive_hex_fab_height">64dp</dimen>
-    <dimen name="xnet_bg_drive_hex_fab_stroke_width">2</dimen>
+    <integer name="xnet_bg_drive_hex_fab_stroke_width">2</integer>
     <dimen name="xnet_bg_drive_popup_window_radius">0dp</dimen>
     <dimen name="xnet_bg_drive_spinner_shell_width">320dp</dimen>
     <dimen name="xnet_bg_drive_spinner_shell_height">56dp</dimen>
-    <dimen name="xnet_bg_drive_spinner_shell_stroke_width">1.5</dimen>
+    <item name="xnet_bg_drive_spinner_shell_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_drive_toolbar_search_radius">8dp</dimen>
     <dimen name="xnet_bg_drive_toolbar_shell_width">360dp</dimen>
     <dimen name="xnet_bg_drive_toolbar_shell_height">64dp</dimen>
-    <dimen name="xnet_bg_drive_toolbar_shell_stroke_width">1.2</dimen>
+    <item name="xnet_bg_drive_toolbar_shell_stroke_width" type="dimen" format="float">1.2</item>
     <dimen name="xnet_bg_files_engineering_hero_width">360dp</dimen>
     <dimen name="xnet_bg_files_engineering_hero_height">144dp</dimen>
-    <dimen name="xnet_bg_files_engineering_hero_stroke_width">1.8</dimen>
+    <item name="xnet_bg_files_engineering_hero_stroke_width" type="dimen" format="float">1.8</item>
     <dimen name="xnet_bg_files_engineering_pdf_sheet_width">360dp</dimen>
     <dimen name="xnet_bg_files_engineering_pdf_sheet_height">420dp</dimen>
-    <dimen name="xnet_bg_files_engineering_pdf_sheet_stroke_width">1.5</dimen>
+    <item name="xnet_bg_files_engineering_pdf_sheet_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_files_engineering_search_radius">0dp</dimen>
     <dimen name="xnet_bg_files_engineering_status_width">320dp</dimen>
     <dimen name="xnet_bg_files_engineering_status_height">48dp</dimen>
-    <dimen name="xnet_bg_files_engineering_status_stroke_width">1.5</dimen>
+    <item name="xnet_bg_files_engineering_status_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_files_engineering_surface_width">360dp</dimen>
     <dimen name="xnet_bg_files_engineering_surface_height">420dp</dimen>
-    <dimen name="xnet_bg_files_engineering_surface_stroke_width">1.7</dimen>
+    <item name="xnet_bg_files_engineering_surface_stroke_width" type="dimen" format="float">1.7</item>
     <dimen name="xnet_bg_files_engineering_tab_idle_width">220dp</dimen>
     <dimen name="xnet_bg_files_engineering_tab_idle_height">52dp</dimen>
-    <dimen name="xnet_bg_files_engineering_tab_idle_stroke_width">1.5</dimen>
+    <item name="xnet_bg_files_engineering_tab_idle_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_files_engineering_tab_selected_width">220dp</dimen>
     <dimen name="xnet_bg_files_engineering_tab_selected_height">52dp</dimen>
-    <dimen name="xnet_bg_files_engineering_tab_selected_stroke_width">1.6</dimen>
+    <item name="xnet_bg_files_engineering_tab_selected_stroke_width" type="dimen" format="float">1.6</item>
     <dimen name="xnet_bg_overlay_circle_radius">0dp</dimen>
     <dimen name="xnet_bg_overlay_panel_radius">22dp</dimen>
     <dimen name="xnet_bg_transfer_tab_selected_radius">14dp</dimen>
     <dimen name="xnet_bg_transfer_tab_unselected_radius">14dp</dimen>
     <dimen name="xnet_bg_xnet_audio_control_button_width">44dp</dimen>
     <dimen name="xnet_bg_xnet_audio_control_button_height">44dp</dimen>
-    <dimen name="xnet_bg_xnet_audio_control_button_stroke_width">1.2</dimen>
+    <item name="xnet_bg_xnet_audio_control_button_stroke_width" type="dimen" format="float">1.2</item>
     <dimen name="xnet_bg_xnet_audio_play_hex_width">68dp</dimen>
     <dimen name="xnet_bg_xnet_audio_play_hex_height">68dp</dimen>
-    <dimen name="xnet_bg_xnet_audio_play_hex_stroke_width">2</dimen>
+    <integer name="xnet_bg_xnet_audio_play_hex_stroke_width">2</integer>
     <dimen name="xnet_bg_xnet_bottom_nav_dock_width">360dp</dimen>
     <dimen name="xnet_bg_xnet_bottom_nav_dock_height">64dp</dimen>
-    <dimen name="xnet_bg_xnet_bottom_nav_dock_stroke_width">1.5</dimen>
+    <item name="xnet_bg_xnet_bottom_nav_dock_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_xnet_bottom_nav_dock_classic_width">360dp</dimen>
     <dimen name="xnet_bg_xnet_bottom_nav_dock_classic_height">64dp</dimen>
-    <dimen name="xnet_bg_xnet_bottom_nav_dock_classic_stroke_width">1.5</dimen>
+    <item name="xnet_bg_xnet_bottom_nav_dock_classic_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_xnet_dialog_window_radius">0dp</dimen>
     <dimen name="xnet_bg_xnet_popup_window_radius">0dp</dimen>
     <dimen name="xnet_bg_xnet_search_shell_width">320dp</dimen>
     <dimen name="xnet_bg_xnet_search_shell_height">56dp</dimen>
-    <dimen name="xnet_bg_xnet_search_shell_stroke_width">1.5</dimen>
+    <item name="xnet_bg_xnet_search_shell_stroke_width" type="dimen" format="float">1.5</item>
+    <dimen name="xnet_bg_xnet_search_shell_cut_top_left">17dp</dimen>
+    <dimen name="xnet_bg_xnet_search_shell_cut_top_right">21dp</dimen>
+    <dimen name="xnet_bg_xnet_search_shell_cut_bottom_right">17dp</dimen>
+    <dimen name="xnet_bg_xnet_search_shell_cut_bottom_left">21dp</dimen>
+    <item name="xnet_bg_xnet_search_shell_fill_alpha" type="dimen" format="float">0.15</item>
+    <string name="xnet_bg_xnet_search_shell_bg_color">rgba(0, 0, 0, 0.10)</string>
     <dimen name="xnet_bg_xnet_search_shell_classic_width">320dp</dimen>
     <dimen name="xnet_bg_xnet_search_shell_classic_height">56dp</dimen>
-    <dimen name="xnet_bg_xnet_search_shell_classic_stroke_width">1.5</dimen>
+    <item name="xnet_bg_xnet_search_shell_classic_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_bg_xnet_spinner_shell_width">320dp</dimen>
     <dimen name="xnet_bg_xnet_spinner_shell_height">56dp</dimen>
-    <dimen name="xnet_bg_xnet_spinner_shell_stroke_width">1.5</dimen>
+    <item name="xnet_bg_xnet_spinner_shell_stroke_width" type="dimen" format="float">1.5</item>
+    <dimen name="xnet_bg_xnet_spinner_shell_cut_top_left">17dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_cut_top_right">21dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_cut_bottom_right">17dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_cut_bottom_left">21dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_padding_start">14dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_padding_end">36dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_padding_y">10dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_shell_min_height">54dp</dimen>
     <dimen name="xnet_bg_xnet_spinner_shell_classic_width">320dp</dimen>
     <dimen name="xnet_bg_xnet_spinner_shell_classic_height">56dp</dimen>
-    <dimen name="xnet_bg_xnet_spinner_shell_classic_stroke_width">1.5</dimen>
+    <item name="xnet_bg_xnet_spinner_shell_classic_stroke_width" type="dimen" format="float">1.5</item>
     <dimen name="xnet_ic_google_width">24dp</dimen>
     <dimen name="xnet_ic_google_height">24dp</dimen>
     <dimen name="xnet_ic_nav_menu_width">24dp</dimen>
     <dimen name="xnet_ic_nav_menu_height">24dp</dimen>
     <dimen name="xnet_ic_xnet_chip_checked_width">24dp</dimen>
     <dimen name="xnet_ic_xnet_chip_checked_height">24dp</dimen>
-    <dimen name="xnet_ic_xnet_chip_checked_stroke_width">2.2</dimen>
+    <item name="xnet_ic_xnet_chip_checked_stroke_width" type="dimen" format="float">2.2</item>
     <dimen name="xnet_ic_xnet_classic_hamburger_width">24dp</dimen>
     <dimen name="xnet_ic_xnet_classic_hamburger_height">24dp</dimen>
     <dimen name="xnet_ic_xnet_classic_threedot_width">24dp</dimen>
@@ -88,10 +102,15 @@
     <dimen name="xnet_ic_xnet_cyber_hamburger_height">24dp</dimen>
     <dimen name="xnet_ic_xnet_cyber_threedot_width">24dp</dimen>
     <dimen name="xnet_ic_xnet_cyber_threedot_height">24dp</dimen>
-    <dimen name="xnet_layout_xnet_drawer_content_drawerPanel_gravity">start</dimen>
+    <integer name="xnet_bg_xnet_spinner_popup_max_items">5</integer>
+    <dimen name="xnet_bg_xnet_spinner_popup_max_height">220dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_popup_radius">6dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_popup_stroke_width">1.5dp</dimen>
+    <dimen name="xnet_bg_xnet_spinner_popup_stroke_width_classic">1dp</dimen>
+    <string name="xnet_layout_xnet_drawer_content_drawerPanel_gravity">start</string>
     <dimen name="xnet_layout_xnet_drawer_content_drawerPanel_width">300dp</dimen>
-    <dimen name="xnet_layout_xnet_drawer_content_drawerBackdrop_alpha">0.52</dimen>
-    <dimen name="xnet_layout_xnet_drawer_content_drawerGlass_alpha">0.44</dimen>
+    <item name="xnet_layout_xnet_drawer_content_drawerBackdrop_alpha" type="dimen" format="float">0.52</item>
+    <item name="xnet_layout_xnet_drawer_content_drawerGlass_alpha" type="dimen" format="float">0.44</item>
     <dimen name="xnet_layout_xnet_drawer_content_drawerProfileLayout_padding">16dp</dimen>
     <dimen name="xnet_layout_xnet_drawer_content_drawerAvatar_height">56dp</dimen>
     <dimen name="xnet_layout_xnet_drawer_content_drawerAvatar_width">56dp</dimen>
@@ -106,7 +125,7 @@
     <dimen name="xnet_layout_xnet_drawer_content_drawerDivider_margin_bottom">8dp</dimen>
     <dimen name="xnet_layout_xnet_drawer_content_drawerDivider_margin_top">12dp</dimen>
     <dimen name="xnet_layout_xnet_drawer_content_drawerScroll_height">0dp</dimen>
-    <dimen name="xnet_layout_xnet_drawer_content_drawerScroll_weight">1</dimen>
+    <integer name="xnet_layout_xnet_drawer_content_drawerScroll_weight">1</integer>
     <dimen name="xnet_layout_xnet_drawer_content_drawerMenuContainer_padding_bottom">8dp</dimen>
     <dimen name="xnet_layout_xnet_drawer_content_btnDrawerHome_height">48dp</dimen>
     <dimen name="xnet_layout_xnet_drawer_content_btnDrawerHome_margin_top">4dp</dimen>
