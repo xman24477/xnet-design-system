@@ -1,6 +1,11 @@
-﻿import json
+import json
 import re
 from pathlib import Path
+def web_color_value(value):
+    """Convert Android #AARRGGBB token colors to CSS #RRGGBBAA."""
+    if isinstance(value, str) and re.fullmatch(r"#[0-9A-Fa-f]{8}", value):
+        return f"#{value[3:]}{value[1:3]}".upper()
+    return value
 
 def generate_platforms():
     root_dir = Path(__file__).resolve().parent.parent
@@ -23,9 +28,9 @@ def generate_platforms():
 
     # 1. Generate Web CSS Colors
     for theme_name, theme_data in tokens.get("themes", {}).items():
-        css_lines = [f"/* Theme: {theme_name} */", f"[data-theme='{theme_name}'] {{"]
+        css_lines = [f"/* Theme: {theme_name} */", f":root[data-theme='{theme_name}'] {{"]
         for name, value in theme_data.get("colors", {}).items():
-            css_lines.append(f"  --xnet-{name}: {value};")
+            css_lines.append(f"  --xnet-{name}: {web_color_value(value)};")
         css_lines.append("}\n")
         (web_dir / f"xnet-theme.{theme_name}.css").write_text("\n".join(css_lines), encoding="utf-8")
 
@@ -100,18 +105,40 @@ def generate_platforms():
 
     # 7. Generate Android XML Dimensions
     android_dim_lines = ['<?xml version="1.0" encoding="utf-8"?>', "<resources>"]
+    
+    def process_val(dim_name, val):
+        s_val = str(val).strip()
+        if s_val in ["match_parent", "wrap_content"] or "?" in s_val:
+            return
+            
+        if s_val.endswith("dp") or s_val.endswith("sp") or s_val.endswith("px"):
+            android_dim_lines.append(f'    <dimen name="{dim_name}">{s_val}</dimen>')
+        elif s_val.startswith("#") or s_val.startswith("rgba"):
+            android_dim_lines.append(f'    <string name="{dim_name}">{s_val}</string>')
+        elif s_val.isalpha():
+            android_dim_lines.append(f'    <string name="{dim_name}">{s_val}</string>')
+        elif s_val.isdigit() or (s_val.startswith("-") and s_val[1:].isdigit()):
+            android_dim_lines.append(f'    <integer name="{dim_name}">{s_val}</integer>')
+        else:
+            try:
+                float(s_val)
+                if "alpha" in dim_name.lower() or "weight" in dim_name.lower():
+                    android_dim_lines.append(f'    <item name="{dim_name}" type="dimen" format="float">{s_val}</item>')
+                else:
+                    android_dim_lines.append(f'    <dimen name="{dim_name}">{s_val}dp</dimen>')
+            except ValueError:
+                android_dim_lines.append(f'    <string name="{dim_name}">{s_val}</string>')
+
     for comp_name, comp_data in tokens.get("components", {}).get("drawable-dimensions", {}).items():
         for prop, val in comp_data.items():
             dim_name = f"xnet_{comp_name}_{prop}".replace("-", "_")
-            android_dim_lines.append(f'    <dimen name="{dim_name}">{val}</dimen>')
+            process_val(dim_name, val)
             
     for layout_name, layout_data in tokens.get("components", {}).get("layout-dimensions", {}).items():
         for view_id, view_data in layout_data.items():
             for prop, val in view_data.items():
-                if val in ["match_parent", "wrap_content"] or "?" in str(val):
-                    continue
                 dim_name = f"xnet_layout_{layout_name}_{view_id}_{prop}".replace("-", "_")
-                android_dim_lines.append(f'    <dimen name="{dim_name}">{val}</dimen>')
+                process_val(dim_name, val)
                 
     android_dim_lines.append("</resources>\n")
     (android_dir / "dimens.xml").write_text("\n".join(android_dim_lines), encoding="utf-8")
@@ -120,3 +147,4 @@ def generate_platforms():
 
 if __name__ == '__main__':
     generate_platforms()
+
