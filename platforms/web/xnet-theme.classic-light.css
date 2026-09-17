@@ -1,5 +1,5 @@
 /* Theme: classic-light */
-[data-theme='classic-light'] {
+:root[data-theme='classic-light'] {
   --xnet-background: #F5F5F5;
   --xnet-background-alt: #FFFFFF;
   --xnet-surface-base: #FFFFFF;
@@ -12,10 +12,10 @@
   --xnet-surface-raised: #E0E0E0;
   --xnet-surface-alt: #FFFFFF;
   --xnet-stroke: #CCCCCC;
-  --xnet-stroke-soft: #1F000000;
-  --xnet-glass: #15000000;
-  --xnet-glass-soft: #08000000;
-  --xnet-accent-primary-soft: #20000000;
+  --xnet-stroke-soft: #0000001F;
+  --xnet-glass: #00000015;
+  --xnet-glass-soft: #00000008;
+  --xnet-accent-primary-soft: #00000020;
   --xnet-semantic-error: #FF4444;
   --xnet-semantic-warning: #FFC107;
   --xnet-semantic-info: #1976D2;
