@@ -1,5 +1,5 @@
 /* Theme: cyber-rgb */
-:root[data-theme='cyber-rgb'] {
+[data-theme='cyber-rgb'] {
   --xnet-background: #05080C;
   --xnet-background-alt: #0D131A;
   --xnet-surface-base: #0A0F14;
@@ -11,7 +11,7 @@
   --xnet-accent-positive: #00FF41;
   --xnet-surface-raised: #121A24;
   --xnet-surface-alt: #0E1620;
-  --xnet-accent-primary-soft: #00D4FF40;
+  --xnet-accent-primary-soft: #4000D4FF;
   --xnet-semantic-error: #FF4444;
   --xnet-semantic-warning: #FFC107;
   --xnet-semantic-info: #00D4FF;

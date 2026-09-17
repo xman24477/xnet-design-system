@@ -1,8 +1,8 @@
 /* Theme: cyber-black */
-:root[data-theme='cyber-black'] {
+[data-theme='cyber-black'] {
   --xnet-background: #070707;
   --xnet-background-alt: #101010;
-  --xnet-surface-base: #1414145C;
+  --xnet-surface-base: #5C141414;
   --xnet-stroke: #505050;
   --xnet-text-primary: #F5F5F5;
   --xnet-text-secondary: #D4D4D4;
@@ -10,8 +10,8 @@
   --xnet-accent-highlight: #7EC8E3;
   --xnet-accent-positive: #FFC857;
   --xnet-surface-raised: #101010;
-  --xnet-surface-alt: #1414145C;
-  --xnet-accent-primary-soft: #F2F2F240;
+  --xnet-surface-alt: #5C141414;
+  --xnet-accent-primary-soft: #40F2F2F2;
   --xnet-semantic-error: #FF4444;
   --xnet-semantic-warning: #FFC107;
   --xnet-semantic-info: #00D4FF;

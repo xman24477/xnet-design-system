@@ -1,8 +1,8 @@
 /* Theme: cyber-green */
-:root[data-theme='cyber-green'] {
+[data-theme='cyber-green'] {
   --xnet-background: #020A02;
   --xnet-background-alt: #040E04;
-  --xnet-surface-base: #0714075C;
+  --xnet-surface-base: #5C071407;
   --xnet-stroke: #2D8C44;
   --xnet-text-primary: #E8FFE8;
   --xnet-text-secondary: #8FE09A;
@@ -10,8 +10,8 @@
   --xnet-accent-highlight: #49D6FF;
   --xnet-accent-positive: #00FF85;
   --xnet-surface-raised: #040E04;
-  --xnet-surface-alt: #0714075C;
-  --xnet-accent-primary-soft: #00FF4140;
+  --xnet-surface-alt: #5C071407;
+  --xnet-accent-primary-soft: #4000FF41;
   --xnet-semantic-error: #FF4444;
   --xnet-semantic-warning: #FFC107;
   --xnet-semantic-info: #00D4FF;
