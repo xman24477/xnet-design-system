@@ -8,6 +8,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -70,4 +73,5 @@ jobs:
             git push origin main
             git push origin "${NEW_TAG}"
           fi
+
 
