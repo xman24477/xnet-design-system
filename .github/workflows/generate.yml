@@ -6,7 +6,7 @@ on:
       - 'tokens/tokens.json'
       - 'scripts/generate_platforms.py'
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -70,3 +70,4 @@ jobs:
             git push origin main
             git push origin "${NEW_TAG}"
           fi
+
