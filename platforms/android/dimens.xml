@@ -107,6 +107,23 @@
     <dimen name="xnet_bg_xnet_spinner_popup_radius">6dp</dimen>
     <dimen name="xnet_bg_xnet_spinner_popup_stroke_width">1.5dp</dimen>
     <dimen name="xnet_bg_xnet_spinner_popup_stroke_width_classic">1dp</dimen>
+    <dimen name="xnet_radar_circle_stroke_width">1.2dp</dimen>
+    <dimen name="xnet_radar_thick_circle_stroke_width">3dp</dimen>
+    <dimen name="xnet_radar_beam_stroke_width">2dp</dimen>
+    <dimen name="xnet_radar_crosshair_stroke_width">1.2dp</dimen>
+    <dimen name="xnet_radar_outer_track_stroke_width">1.2dp</dimen>
+    <dimen name="xnet_radar_outer_scale_major_notch">9dp</dimen>
+    <dimen name="xnet_radar_outer_scale_medium_notch">6dp</dimen>
+    <dimen name="xnet_radar_outer_scale_minor_notch">3.5dp</dimen>
+    <dimen name="xnet_radar_main_tick_major">7dp</dimen>
+    <dimen name="xnet_radar_main_tick_minor">3.5dp</dimen>
+    <dimen name="xnet_radar_cross_tick_size">3.5dp</dimen>
+    <dimen name="xnet_radar_outer_scale_offset">8dp</dimen>
+    <dimen name="xnet_radar_main_circle_offset">16dp</dimen>
+    <dimen name="xnet_radar_degree_margin">14dp</dimen>
+    <dimen name="xnet_radar_range_padding">5dp</dimen>
+    <dimen name="xnet_radar_degree_text_size">8.5sp</dimen>
+    <dimen name="xnet_radar_range_text_size">7sp</dimen>
     <string name="xnet_layout_xnet_drawer_content_drawerPanel_gravity">start</string>
     <dimen name="xnet_layout_xnet_drawer_content_drawerPanel_width">300dp</dimen>
     <item name="xnet_layout_xnet_drawer_content_drawerBackdrop_alpha" type="dimen" format="float">0.52</item>
